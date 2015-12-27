@@ -5,6 +5,8 @@
 
     <dimen name="h1">50sp</dimen>
     <dimen name="h2">25sp</dimen>
+    <dimen name="icon">120dp</dimen>
+    <dimen name="image">250dp</dimen>
 
 
 </resources>
