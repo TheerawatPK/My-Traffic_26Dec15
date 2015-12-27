@@ -1,6 +1,8 @@
 package com.example.arismaaii.mytraffic;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -38,6 +40,11 @@ public class Theerawat099 extends AppCompatActivity {
                 MediaPlayer buttonMediaplayer = MediaPlayer.create(getBaseContext(),
                         R.raw.pig);
                 buttonMediaplayer.start();
+
+                // Intent to Webview
+                Intent objIntent = new Intent(Intent.ACTION_VIEW);
+                objIntent.setData(Uri.parse("https://youtu.be/YQHsXMglC9A"));
+                startActivity(objIntent);
 
             } //Event
         });
